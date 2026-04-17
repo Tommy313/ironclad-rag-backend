@@ -2,7 +2,6 @@
   "invoices": [
     {
       "id": "SWA877183",
-      "external_id": "SWA877183",
       "date": "2025-11-18",
       "work_dates": "6/18, 6/27/25",
       "equipment": "Sennebogen 840 M E",
@@ -56,7 +55,6 @@
     },
     {
       "id": "SWA988153",
-      "external_id": "SWA988153",
       "date": "2025-11-18",
       "work_dates": "11/10/25",
       "equipment": "Sennebogen 875 E",
@@ -93,7 +91,6 @@
     },
     {
       "id": "SWA986658",
-      "external_id": "SWA986658",
       "date": "2025-11-18",
       "work_dates": "10/7/25",
       "equipment": "Sennebogen 840 M",
@@ -128,7 +125,6 @@
     },
     {
       "id": "SWA962556",
-      "external_id": "SWA962556",
       "date": "2025-11-18",
       "work_dates": "10/7, 10/9/25",
       "equipment": "Volvo L260H",
@@ -165,7 +161,6 @@
     },
     {
       "id": "SWA982538",
-      "external_id": "SWA982538",
       "date": "2025-11-18",
       "work_dates": "11/3/25",
       "equipment": "Sennebogen 840 M HD",
@@ -196,7 +191,6 @@
     },
     {
       "id": "SWA972099",
-      "external_id": "SWA972099",
       "date": "2025-11-18",
       "work_dates": "10/20, 10/22/25",
       "equipment": "Sennebogen 840 M",
@@ -235,7 +229,6 @@
     },
     {
       "id": "SWA984255",
-      "external_id": "SWA984255",
       "date": "2025-11-18",
       "work_dates": "11/5/25",
       "equipment": "Sennebogen 840 M E",
@@ -278,7 +271,6 @@
     },
     {
       "id": "SWA932625",
-      "external_id": "SWA932625",
       "date": "2025-11-18",
       "work_dates": "8/28, 9/2, 9/3, 9/4/25",
       "equipment": "Volvo L260H",
@@ -318,7 +310,6 @@
     },
     {
       "id": "SWA957051",
-      "external_id": "SWA957051",
       "date": "2025-11-18",
       "work_dates": "9/30/25",
       "equipment": "Sennebogen 835 M",
@@ -367,7 +358,6 @@
     },
     {
       "id": "SWA977127",
-      "external_id": "SWA977127",
       "date": "2025-11-18",
       "work_dates": "11/3/25",
       "equipment": "Sennebogen 840 M E",
@@ -409,7 +399,6 @@
     },
     {
       "id": "SWB028980",
-      "external_id": "SWB028980",
       "date": "2026-02-10",
       "work_dates": "1/13/26",
       "equipment": "Sennebogen 850 M E",
@@ -451,7 +440,6 @@
     },
     {
       "id": "RECO-42811",
-      "external_id": "RECO-42811",
       "date": "2026-02-04",
       "work_dates": "2/3/26",
       "equipment": "Hitachi ZW370",
@@ -488,7 +476,6 @@
     },
     {
       "id": "ALT-52603",
-      "external_id": "ALT-52603",
       "date": "2024-11-22",
       "work_dates": "11/22/24",
       "equipment": "CAT 330BL",
@@ -545,7 +532,6 @@
     },
     {
       "id": "SWB043219",
-      "external_id": "SWB043219",
       "date": "2026-02-10",
       "work_dates": "2/2, 2/3/26",
       "equipment": "Sennebogen 850 M E",
@@ -598,7 +584,6 @@
     },
     {
       "id": "SWB037908",
-      "external_id": "SWB037908",
       "date": "2026-02-03",
       "work_dates": "1/28/26",
       "equipment": "Sennebogen 840 M E",
@@ -630,7 +615,6 @@
     },
     {
       "id": "SWB043732",
-      "external_id": "SWB043732",
       "date": "2026-02-16",
       "work_dates": "1/26, 2/11/26",
       "equipment": "Sennebogen 840 M E",
@@ -683,7 +667,6 @@
     },
     {
       "id": "SQT206663",
-      "external_id": "SQT206663",
       "date": "2026-02-16",
       "work_dates": "Estimate",
       "equipment": "Volvo EW180B",
@@ -767,7 +750,6 @@
     },
     {
       "id": "SAR-QS02195",
-      "external_id": "SAR-QS02195",
       "date": "2025-01-06",
       "work_dates": "Quote",
       "equipment": "Link-Belt 360X2",
@@ -805,7 +787,6 @@
     },
     {
       "id": "RECO-42944",
-      "external_id": "RECO-42944",
       "date": "2026-02-17",
       "work_dates": "Estimate",
       "equipment": "Liebherr LH60M",
@@ -909,7 +890,6 @@
     },
     {
       "id": "CHR-000142",
-      "external_id": "CHR-000142",
       "date": "2024-12-06",
       "work_dates": "Estimate",
       "equipment": "Link-Belt 360X2",
@@ -961,7 +941,6 @@
     },
     {
       "id": "SWB030324",
-      "external_id": "SWB030324",
       "date": "2026-01-30",
       "work_dates": "1/15/26",
       "equipment": "Volvo L180H",
@@ -998,7 +977,6 @@
     },
     {
       "id": "SQT206641",
-      "external_id": "SQT206641",
       "date": "2026-02-16",
       "work_dates": "Estimate",
       "equipment": "Volvo L260H",
@@ -1092,7 +1070,6 @@
     },
     {
       "id": "SQT206648",
-      "external_id": "SQT206648",
       "date": "2026-02-16",
       "work_dates": "Estimate",
       "equipment": "Sennebogen 840 M E",
@@ -1181,7 +1158,6 @@
     },
     {
       "id": "SQT206660",
-      "external_id": "SQT206660",
       "date": "2026-02-16",
       "work_dates": "Estimate",
       "equipment": "Volvo L180G",
@@ -1270,7 +1246,6 @@
     },
     {
       "id": "SQT206635",
-      "external_id": "SQT206635",
       "date": "2026-02-16",
       "work_dates": "Estimate",
       "equipment": "Sennebogen 830ME",
@@ -1354,7 +1329,6 @@
     },
     {
       "id": "MCAT-18297589",
-      "external_id": "MCAT-18297589",
       "date": "2026-02-16",
       "work_dates": "2/9-2/15/26",
       "equipment": "CAT 345C MH",
@@ -1406,7 +1380,6 @@
     },
     {
       "id": "SUM-2245",
-      "external_id": "SUM-2245",
       "date": "2026-02-18",
       "work_dates": "1/27/26",
       "equipment": "CAT 3040",
@@ -1448,7 +1421,6 @@
     },
     {
       "id": "SUM-2214",
-      "external_id": "SUM-2214",
       "date": "2026-01-06",
       "work_dates": "11/26, 12/1, 12/11/25",
       "equipment": "Liebherr LH60",
@@ -1496,7 +1468,6 @@
     },
     {
       "id": "SUM-2166",
-      "external_id": "SUM-2166",
       "date": "2025-10-28",
       "work_dates": "10/7, 10/20/25",
       "equipment": "Liebherr LH60",
@@ -1538,7 +1509,6 @@
     },
     {
       "id": "SUM-2158",
-      "external_id": "SUM-2158",
       "date": "2025-10-23",
       "work_dates": "9/8/25",
       "equipment": "Genesis GXP660R",
@@ -1578,7 +1548,6 @@
     },
     {
       "id": "SUM-2160",
-      "external_id": "SUM-2160",
       "date": "2025-10-23",
       "work_dates": "10/7/25",
       "equipment": "CAT 3040",
@@ -1613,7 +1582,6 @@
     },
     {
       "id": "SUM-2161",
-      "external_id": "SUM-2161",
       "date": "2025-10-23",
       "work_dates": "9/4-10/14/25",
       "equipment": "Link-Belt 380X4 MH",
@@ -1661,7 +1629,6 @@
     },
     {
       "id": "SUM-EST-2313",
-      "external_id": "SUM-EST-2313",
       "date": "2026-02-04",
       "work_dates": "Estimate",
       "equipment": "Volvo Shear",
@@ -1692,7 +1659,6 @@
     },
     {
       "id": "90181-2023-03A",
-      "external_id": "90181-2023-03A",
       "date": "2023-03-20",
       "work_dates": "3/20/23",
       "equipment": "Sennebogen 835 M",
@@ -1736,7 +1702,6 @@
     },
     {
       "id": "90181-2023-01A",
-      "external_id": "90181-2023-01A",
       "date": "2023-01-31",
       "work_dates": "1/31/23",
       "equipment": "Sennebogen 835 M",
@@ -1779,7 +1744,6 @@
     },
     {
       "id": "90181-2025-04A",
-      "external_id": "90181-2025-04A",
       "date": "2025-04-17",
       "work_dates": "4/17/25",
       "equipment": "Sennebogen 835 M",
@@ -1818,7 +1782,6 @@
     },
     {
       "id": "90181-2025-03A",
-      "external_id": "90181-2025-03A",
       "date": "2025-03-31",
       "work_dates": "3/31/25",
       "equipment": "Sennebogen 835 M",
@@ -1856,7 +1819,6 @@
     },
     {
       "id": "90181-2025-09A",
-      "external_id": "90181-2025-09A",
       "date": "2025-09-16",
       "work_dates": "9/16/25",
       "equipment": "Sennebogen 835 M",
@@ -1894,7 +1856,6 @@
     },
     {
       "id": "90181-2025-07A",
-      "external_id": "90181-2025-07A",
       "date": "2025-07-28",
       "work_dates": "7/28/25",
       "equipment": "Sennebogen 835 M",
@@ -1937,7 +1898,6 @@
     },
     {
       "id": "90181-2025-12A",
-      "external_id": "90181-2025-12A",
       "date": "2025-12-16",
       "work_dates": "12/16/25",
       "equipment": "Sennebogen 835 M",
@@ -1986,7 +1946,6 @@
     },
     {
       "id": "90181-2025-06A",
-      "external_id": "90181-2025-06A",
       "date": "2025-06-16",
       "work_dates": "6/16/25",
       "equipment": "Sennebogen 835 M",
@@ -2023,7 +1982,6 @@
     },
     {
       "id": "90181-2024-08A",
-      "external_id": "90181-2024-08A",
       "date": "2024-08-31",
       "work_dates": "8/31/24",
       "equipment": "Sennebogen 835 M",
@@ -2071,7 +2029,6 @@
     },
     {
       "id": "90181-2020-11A",
-      "external_id": "90181-2020-11A",
       "date": "2020-11-30",
       "work_dates": "11/30/20",
       "equipment": "Sennebogen 835 M",
