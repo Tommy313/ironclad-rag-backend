@@ -1,0 +1,15 @@
+name: Ingest Seed Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run seed ingest
+        run: node scripts/ingest-seed.js
+        timeout-minutes: 5

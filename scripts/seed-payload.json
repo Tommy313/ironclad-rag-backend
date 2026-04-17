@@ -1,0 +1,2111 @@
+{
+  "invoices": [
+    {
+      "id": "SWA877183",
+      "external_id": "SWA877183",
+      "date": "2025-11-18",
+      "work_dates": "6/18, 6/27/25",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2362",
+      "unit_id": "EQ0273588",
+      "meter_hours": 5569,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Wiper inop & broken door handle. Visit 1: Jeff H diagnosed as bad wiper motor (WRONG). Visit 2: Jereme Chie found blown fuse + bad relay.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H",
+        "Jereme Chie"
+      ],
+      "visits": 2,
+      "parts_total": 319.08,
+      "labor_total": 2156.25,
+      "misc_total": 40.75,
+      "flags": [
+        "MISDIAGNOSIS",
+        "MULTI-RATE"
+      ],
+      "flag_notes": "Misdiagnosis Visit 1. Work dates 6/18-27 predate 7/1 contract — may be prior rates.",
+      "expected_hours_low": 4,
+      "expected_hours_high": 7,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Rope Winch",
+          "quantity": 1,
+          "unit_price": 233.14
+        },
+        {
+          "description": "Switch",
+          "quantity": 1,
+          "unit_price": 42.6
+        },
+        {
+          "description": "Timer Relay",
+          "quantity": 1,
+          "unit_price": 43.34
+        },
+        {
+          "description": "Shipping",
+          "quantity": 1,
+          "unit_price": 40.75
+        }
+      ]
+    },
+    {
+      "id": "SWA988153",
+      "external_id": "SWA988153",
+      "date": "2025-11-18",
+      "work_dates": "11/10/25",
+      "equipment": "Sennebogen 875 E",
+      "serial_number": "875.7.1119",
+      "unit_id": "EQ0341106",
+      "meter_hours": 5490.8,
+      "site": "6464 Strong St, Detroit",
+      "region": "SE-MI",
+      "category": "Drive / Gearbox",
+      "description": "Drive gear oil leak. Missing gearbox fill cap. Parts run to Detroit base.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 58.29,
+      "labor_total": 1840,
+      "misc_total": 0,
+      "flags": [
+        "LABOR-HEAVY"
+      ],
+      "flag_notes": "13.1 hrs at $140 for a cap install. 1hr travel = 12.1hr wrench. Excessive.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Vent Filter",
+          "quantity": 1,
+          "unit_price": 58.29
+        }
+      ]
+    },
+    {
+      "id": "SWA986658",
+      "external_id": "SWA986658",
+      "date": "2025-11-18",
+      "work_dates": "10/7/25",
+      "equipment": "Sennebogen 840 M",
+      "serial_number": "840.0.2242",
+      "unit_id": "EQ0138502",
+      "meter_hours": 10890.95,
+      "site": "3100 Lonyo St, Detroit",
+      "region": "SE-MI",
+      "category": "Hydraulic",
+      "description": "Hyd leak from crossover hose at valve block. Parts run to Ritter.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 204.22,
+      "labor_total": 1002,
+      "misc_total": 0,
+      "flags": [],
+      "flag_notes": "Reasonable — 7.2 hrs incl travel + parts run.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Crimp Hose Assy",
+          "quantity": 1,
+          "unit_price": 204.22
+        }
+      ]
+    },
+    {
+      "id": "SWA962556",
+      "external_id": "SWA962556",
+      "date": "2025-11-18",
+      "work_dates": "10/7, 10/9/25",
+      "equipment": "Volvo L260H",
+      "serial_number": "VCEL260HH00001370",
+      "unit_id": "EQ0302293",
+      "meter_hours": 4228,
+      "site": "9100 John Kronk, Detroit",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Tilt pressure sensor code. 2-visit diagnostic + replacement.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 2,
+      "parts_total": 340.72,
+      "labor_total": 2100,
+      "misc_total": 0,
+      "flags": [
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "15.0 hrs across 2 visits. Same machine as SWA932625 — $9,524 combined.",
+      "expected_hours_low": 6,
+      "expected_hours_high": 10,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Pressure Sensor",
+          "quantity": 1,
+          "unit_price": 340.72
+        }
+      ]
+    },
+    {
+      "id": "SWA982538",
+      "external_id": "SWA982538",
+      "date": "2025-11-18",
+      "work_dates": "11/3/25",
+      "equipment": "Sennebogen 840 M HD",
+      "serial_number": "840.0.2236",
+      "unit_id": "EQ0128560",
+      "meter_hours": 11867,
+      "site": "6464 Strong St, Detroit",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Wiper inop. Blown fuse. Replaced from truck stock.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 488,
+      "misc_total": 0,
+      "flags": [
+        "EXCESSIVE-LABOR"
+      ],
+      "flag_notes": "3.5 hrs for a fuse. 1hr travel = 2.5hr wrench for a fuse swap.",
+      "expected_hours_low": 1,
+      "expected_hours_high": 2,
+      "vendor_type": "dealer",
+      "_line_items": []
+    },
+    {
+      "id": "SWA972099",
+      "external_id": "SWA972099",
+      "date": "2025-11-18",
+      "work_dates": "10/20, 10/22/25",
+      "equipment": "Sennebogen 840 M",
+      "serial_number": "840.0.2244",
+      "unit_id": "EQ0138506",
+      "meter_hours": 10745,
+      "site": "3651 Wyoming Ave, Dearborn",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Limit switch override. Visit 1: Jereme cleaned sensor, temp wire repair. Visit 2: Jeff installed new sensor.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jereme Chie",
+        "Jeff H"
+      ],
+      "visits": 2,
+      "parts_total": 240.62,
+      "labor_total": 2540,
+      "misc_total": 0,
+      "flags": [
+        "HIGH-LABOR",
+        "MULTI-RATE"
+      ],
+      "flag_notes": "Mixed techs — cannot split. $2,540 high for sensor work.",
+      "expected_hours_low": 5,
+      "expected_hours_high": 8,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Sensor",
+          "quantity": 1,
+          "unit_price": 240.62
+        }
+      ]
+    },
+    {
+      "id": "SWA984255",
+      "external_id": "SWA984255",
+      "date": "2025-11-18",
+      "work_dates": "11/5/25",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2369",
+      "unit_id": "EQ0273581",
+      "meter_hours": 8094,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Hydraulic",
+      "description": "Hyd leak. Cross-threaded plug. O'Reilly's run to retap hole.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 87.3,
+      "labor_total": 582,
+      "misc_total": 101.23,
+      "flags": [
+        "UNDOCUMENTED-CHARGE",
+        "WRONG-FLUID"
+      ],
+      "flag_notes": "Sublet $101.23 no description. 5W-30 motor oil on hydraulic job.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 3.5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "5W-30 Synthetic",
+          "quantity": 2,
+          "unit_price": 43.65
+        },
+        {
+          "description": "SUBLET PART (no desc)",
+          "quantity": 1,
+          "unit_price": 101.23
+        }
+      ]
+    },
+    {
+      "id": "SWA932625",
+      "external_id": "SWA932625",
+      "date": "2025-11-18",
+      "work_dates": "8/28, 9/2, 9/3, 9/4/25",
+      "equipment": "Volvo L260H",
+      "serial_number": "VCEL260HH00001370",
+      "unit_id": "EQ0302293",
+      "meter_hours": 4228,
+      "site": "9100 John Kronk, Detroit",
+      "region": "SE-MI",
+      "category": "Hydraulic",
+      "description": "MCV hyd leak. 4 visits/8 days. Root cause: LOOSE PLUG. Sealant applied. 4th visit verification.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 4,
+      "parts_total": 631.18,
+      "labor_total": 6452,
+      "misc_total": 0,
+      "flags": [
+        "HIGHEST-COST",
+        "EXCESSIVE-VISITS",
+        "PHANTOM-PART",
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "46.1 hrs at $140. 4 travel days = $560. ~42 hrs wrench for a loose plug. Check valve listed but notes say plug+sealant.",
+      "expected_hours_low": 10,
+      "expected_hours_high": 18,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Check Valve",
+          "quantity": 1,
+          "unit_price": 631.18
+        }
+      ]
+    },
+    {
+      "id": "SWA957051",
+      "external_id": "SWA957051",
+      "date": "2025-11-18",
+      "work_dates": "9/30/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "835.0.2090",
+      "unit_id": "EQ0051182",
+      "meter_hours": 18766,
+      "site": "G5107 N Dort Hwy, Flint",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Coolant leak — hose caught in hood. O'Reilly's parts. Fabricated hood hole.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Evan W"
+      ],
+      "visits": 1,
+      "parts_total": 45.68,
+      "labor_total": 420,
+      "misc_total": 48.9,
+      "flags": [
+        "MISC-FEE-CREEP",
+        "END-OF-LIFE",
+        "NON-AGREEMENT"
+      ],
+      "flag_notes": "Evan W — NOT agreement tech. Rate unknown. $48.90 misc fees. 18,766 hrs.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 3,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Heater Hoses",
+          "quantity": 16,
+          "unit_price": 2.86
+        },
+        {
+          "description": "Svc Supplies",
+          "quantity": 1,
+          "unit_price": 40.95
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "SWA977127",
+      "external_id": "SWA977127",
+      "date": "2025-11-18",
+      "work_dates": "11/3/25",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2345",
+      "unit_id": "EQ0261924",
+      "meter_hours": 5156,
+      "site": "3100 Lonyo St, Detroit",
+      "region": "SE-MI",
+      "category": "Fuel System",
+      "description": "Missing fuel cap. Parts courier run to Detroit.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 23.17,
+      "labor_total": 652,
+      "misc_total": 45.44,
+      "flags": [
+        "COURIER-AT-MECH-RATE"
+      ],
+      "flag_notes": "4.66 hrs at $140 to deliver $23 fuel cap. Mechanic-rate courier run.",
+      "expected_hours_low": 1,
+      "expected_hours_high": 2,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Filler Cap",
+          "quantity": 1,
+          "unit_price": 23.17
+        },
+        {
+          "description": "Shipping",
+          "quantity": 1,
+          "unit_price": 45.44
+        }
+      ]
+    },
+    {
+      "id": "SWB028980",
+      "external_id": "SWB028980",
+      "date": "2026-02-10",
+      "work_dates": "1/13/26",
+      "equipment": "Sennebogen 850 M E",
+      "serial_number": "850.0.3178",
+      "unit_id": "EQ0341145",
+      "meter_hours": 6240,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "DEF tank collapsed. Drained DEF, disconnected coolant + DEF lines, removed damaged tank. Installed 840 tank (better vent design, less problematic) on 850 forward. Reconnected all lines, refilled DEF, verified on SenCon.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 5949.6,
+      "labor_total": 1260,
+      "misc_total": 208.79,
+      "flags": [
+        "EMISSION-PATTERN"
+      ],
+      "flag_notes": "9.0 hrs @ $140 — reasonable for DEF tank swap. Same machine as SWB043219 (DPF regen) — EQ0341145 has 2 emission system failures at 6,240 hrs. 840 tank retrofit = smart cross-model fix.",
+      "expected_hours_low": 6,
+      "expected_hours_high": 10,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "DEF Container",
+          "quantity": 1,
+          "unit_price": 5949.6
+        },
+        {
+          "description": "Shipping/Handling",
+          "quantity": 1,
+          "unit_price": 208.79
+        }
+      ]
+    },
+    {
+      "id": "RECO-42811",
+      "external_id": "RECO-42811",
+      "date": "2026-02-04",
+      "work_dates": "2/3/26",
+      "equipment": "Hitachi ZW370",
+      "serial_number": "NHJ70J97J25221",
+      "unit_id": "92205",
+      "meter_hours": null,
+      "site": "3100 Lonyo St, Detroit",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "DEF unit (urea) replacement. Separated field/travel/mileage.",
+      "vendor": "RECO Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Unknown"
+      ],
+      "visits": 1,
+      "parts_total": 8659.54,
+      "labor_total": 396.8,
+      "misc_total": 809.6,
+      "flags": [
+        "GOOD-TRANSPARENCY"
+      ],
+      "flag_notes": "RECO separates field ($396.80), travel ($396.80), mileage (86mi×$4.80=$412.80). Model transparency.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 4,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "UNIT;UREA (YA00086512)",
+          "quantity": 1,
+          "unit_price": 8659.54
+        }
+      ]
+    },
+    {
+      "id": "ALT-52603",
+      "external_id": "ALT-52603",
+      "date": "2024-11-22",
+      "work_dates": "11/22/24",
+      "equipment": "CAT 330BL",
+      "serial_number": "06DR03742",
+      "unit_id": null,
+      "meter_hours": null,
+      "site": "3100 Lonyo St, Detroit",
+      "region": "IL",
+      "category": "Engine — Mechanical",
+      "description": "Install 1250W 110V block heater in oil cooler bonnet (replaces 7X7731 plug). Ref TICK:8970. Altorfer CAT field service from Chicago Heights IL. 3hr field labor + 1hr travel + 30mi mileage.",
+      "vendor": "Altorfer CAT",
+      "agreement_status": "none",
+      "techs": [
+        "Unknown"
+      ],
+      "visits": 1,
+      "parts_total": 523.17,
+      "labor_total": 956,
+      "misc_total": 173.6,
+      "flags": [
+        "GOOD-TRANSPARENCY"
+      ],
+      "flag_notes": "Altorfer separates field labor ($717), travel labor ($239), mileage (30mi×$4.99=$149.70). $239/hr CAT dealer rate — 71% above Alta $140. CAT 330BL at Lonyo/Detroit.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "CAT ELC 5G (2388649)",
+          "quantity": 4,
+          "unit_price": 85.73
+        },
+        {
+          "description": "CAP A (6N1604)",
+          "quantity": 1,
+          "unit_price": 5.74
+        },
+        {
+          "description": "ELEMENT A (9G6657)",
+          "quantity": 1,
+          "unit_price": 124.17
+        },
+        {
+          "description": "CORD A (9N5253)",
+          "quantity": 1,
+          "unit_price": 50.34
+        },
+        {
+          "description": "HD6 Misc Charge",
+          "quantity": 1,
+          "unit_price": 23.9
+        }
+      ]
+    },
+    {
+      "id": "SWB043219",
+      "external_id": "SWB043219",
+      "date": "2026-02-10",
+      "work_dates": "2/2, 2/3/26",
+      "equipment": "Sennebogen 850 M E",
+      "serial_number": "850.0.3178",
+      "unit_id": "EQ0341145",
+      "meter_hours": 6240,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "DPF regen too frequent (code 3375). Visit 1: diagnosed via SenCon + Cummins InSite, removed DPF+DOC with crane, sent to Cummins for cleaning. Visit 2: reinstalled cleaned filter with new clamps, seals, DPF pressure sensor, gasket, crossover tube. Regen passed.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 2,
+      "parts_total": 388.52,
+      "labor_total": 1606,
+      "misc_total": 45.36,
+      "flags": [
+        "EMISSION-PATTERN",
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "11.5 hrs across 2 visits — reasonable given crane setup x2 + Cummins sublet. SAME MACHINE as SWB028980 (DEF tank collapse) — EQ0341145 now has 2 emission system failures. 4th emission-related invoice in dataset.",
+      "expected_hours_low": 8,
+      "expected_hours_high": 12,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Seal",
+          "quantity": 2,
+          "unit_price": 65.76
+        },
+        {
+          "description": "Seal",
+          "quantity": 1,
+          "unit_price": 22.21
+        },
+        {
+          "description": "Sensor DPF Pressure",
+          "quantity": 1,
+          "unit_price": 234.79
+        },
+        {
+          "description": "Shipping/Handling",
+          "quantity": 1,
+          "unit_price": 45.36
+        }
+      ]
+    },
+    {
+      "id": "SWB037908",
+      "external_id": "SWB037908",
+      "date": "2026-02-03",
+      "work_dates": "1/28/26",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2369",
+      "unit_id": "EQ0273581",
+      "meter_hours": 8094,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Coolant leak from radiator area. Found 4 loose clamps on radiator. Tightened all clamps, topped off coolant, operated machine to verify, reinstalled panels.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 1024,
+      "misc_total": 0,
+      "flags": [
+        "EXCESSIVE-LABOR",
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "7.3 hrs at $140 to tighten 4 loose radiator clamps. Zero parts. 2nd invoice on EQ0273581 (SWA984255 $770). Combined: $1,794.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 4,
+      "vendor_type": "dealer",
+      "_line_items": []
+    },
+    {
+      "id": "SWB043732",
+      "external_id": "SWB043732",
+      "date": "2026-02-16",
+      "work_dates": "1/26, 2/11/26",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2369",
+      "unit_id": "EQ0273581",
+      "meter_hours": 9006,
+      "site": "500 Collier Rd, Pontiac",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Block heater install. Visit 1 (1/26): parts lookup/order — machine had full emissions failure, deferred. Visit 2 (2/11): removed anti-freeze plug, installed block heater + cord, routed cord for operator, checked coolant.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Jeff H"
+      ],
+      "visits": 2,
+      "parts_total": 249.91,
+      "labor_total": 1048,
+      "misc_total": 29.16,
+      "flags": [
+        "EXCESSIVE-LABOR",
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "7.5 hrs across 2 visits for block heater. Visit 1 was just ordering parts. 3rd invoice on EQ0273581 — $3,121 combined (SWA984255 + SWB037908 + this). Sennebogen 840 at Collier Rd/Pontiac.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Cable",
+          "quantity": 1,
+          "unit_price": 143.47
+        },
+        {
+          "description": "Heater Engine",
+          "quantity": 1,
+          "unit_price": 56.12
+        },
+        {
+          "description": "ES Comp Coolant 5 Gal",
+          "quantity": 1,
+          "unit_price": 50.32
+        },
+        {
+          "description": "Shipping/Handling",
+          "quantity": 1,
+          "unit_price": 29.16
+        }
+      ]
+    },
+    {
+      "id": "SQT206663",
+      "external_id": "SQT206663",
+      "date": "2026-02-16",
+      "work_dates": "Estimate",
+      "equipment": "Volvo EW180B",
+      "serial_number": "8751597",
+      "unit_id": "EQ0250493",
+      "meter_hours": null,
+      "site": "Alta Burton, G3283 S Dort Hwy",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "500-hour PM service estimate. Oil change, filters (oil/water/fuel/air/cab), lubricant, fuel surcharge. Fine print: 18% environmental charge on labor (up to $350 max) NOT included in estimate = potential $133.65 hidden cost.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Shop"
+      ],
+      "visits": 1,
+      "parts_total": 515.5,
+      "labor_total": 742.5,
+      "misc_total": 7.95,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "HIDDEN-FEE"
+      ],
+      "flag_notes": "ESTIMATE only — not yet invoiced. Burton MI location (BP0014791). 18% environmental charge on labor in fine print = up to $133.65 extra. True estimate: $1,297 + $134 = ~$1,430.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Multigrade SYN BLE",
+          "quantity": 7,
+          "unit_price": 18.03
+        },
+        {
+          "description": "Oil Filter",
+          "quantity": 1,
+          "unit_price": 26.91
+        },
+        {
+          "description": "Filter Water Separator",
+          "quantity": 1,
+          "unit_price": 81.38
+        },
+        {
+          "description": "Fuel Filter",
+          "quantity": 1,
+          "unit_price": 29.04
+        },
+        {
+          "description": "Air Filter (primary)",
+          "quantity": 1,
+          "unit_price": 47.27
+        },
+        {
+          "description": "Air Filter (secondary)",
+          "quantity": 1,
+          "unit_price": 50.03
+        },
+        {
+          "description": "Filter Cab Ventilation",
+          "quantity": 1,
+          "unit_price": 59.79
+        },
+        {
+          "description": "Filter Cab",
+          "quantity": 1,
+          "unit_price": 73.01
+        },
+        {
+          "description": "Single Lubricant A",
+          "quantity": 1,
+          "unit_price": 21.85
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "SAR-QS02195",
+      "external_id": "SAR-QS02195",
+      "date": "2025-01-06",
+      "work_dates": "Quote",
+      "equipment": "Link-Belt 360X2",
+      "serial_number": null,
+      "unit_id": null,
+      "meter_hours": null,
+      "site": "2710 State St, Chicago Heights IL",
+      "region": "IL",
+      "category": "Cab / Structure",
+      "description": "Replace blower motor on link belt in Chicago Heights. Quote only — will bill accordingly if under. Doesn't include freight on parts. Didn't diagnose, may be additional charges.",
+      "vendor": "Sargents Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Unknown"
+      ],
+      "visits": 1,
+      "parts_total": 409.65,
+      "labor_total": 650,
+      "misc_total": 32.5,
+      "flags": [
+        "ESTIMATE",
+        "CROSS-VENDOR-COMP"
+      ],
+      "flag_notes": "Sargents Equipment (Gilberts/Chicago Heights IL) — NEW vendor #4. $650 labor, no hourly rate visible. Shop supplies $32.50. Quote disclaims: may not be the problem, additional charges possible.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 4,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Blower Motor",
+          "quantity": 1,
+          "unit_price": 409.65
+        }
+      ]
+    },
+    {
+      "id": "RECO-42944",
+      "external_id": "RECO-42944",
+      "date": "2026-02-17",
+      "work_dates": "Estimate",
+      "equipment": "Liebherr LH60M",
+      "serial_number": "1204-95194",
+      "unit_id": "90190",
+      "meter_hours": 15560,
+      "site": "1950 Medbury Ave, Detroit",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "PM estimate. 8hr field labor + 2hr travel. 84mi mileage @ $4.80. Filters: oil (x2), fuel fine (x2), main air insert, filter elements (x4), filter cassette, crankcase breather, fibre filters (x2), o-rings (x5). Misc supplies $198.40 + $50 environmental charge.",
+      "vendor": "RECO Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Unknown"
+      ],
+      "visits": 1,
+      "parts_total": 2337.76,
+      "labor_total": 1984,
+      "misc_total": 651.6,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "GOOD-TRANSPARENCY"
+      ],
+      "flag_notes": "RECO estimate for Liebherr LH60M — excellent transparency. Field labor ($1,587.20 / 8hr = $198.40/hr), travel ($396.80 / 2hr), mileage (84mi × $4.80 = $403.20), environmental ($50), supplies ($198.40). 15,560 hrs — high-hour machine. Parts $2,338 is 47% of total — heavy filter load.",
+      "expected_hours_low": 8,
+      "expected_hours_high": 10,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Oil Filter (10297295)",
+          "quantity": 2,
+          "unit_price": 86.77
+        },
+        {
+          "description": "Fuel Fine Filter (12820742)",
+          "quantity": 2,
+          "unit_price": 81.98
+        },
+        {
+          "description": "Main Air Filter Insert (571651908)",
+          "quantity": 1,
+          "unit_price": 239.22
+        },
+        {
+          "description": "Filter Element (11081663)",
+          "quantity": 1,
+          "unit_price": 70.41
+        },
+        {
+          "description": "Filter Element (11081571)",
+          "quantity": 1,
+          "unit_price": 158.93
+        },
+        {
+          "description": "Filter Element (10220705)",
+          "quantity": 1,
+          "unit_price": 134.92
+        },
+        {
+          "description": "Filter Element (12282868)",
+          "quantity": 1,
+          "unit_price": 45.68
+        },
+        {
+          "description": "Filter Cassette (10816500)",
+          "quantity": 1,
+          "unit_price": 121.27
+        },
+        {
+          "description": "Crankcase Breather (12886226)",
+          "quantity": 1,
+          "unit_price": 263.07
+        },
+        {
+          "description": "Fibre Filter (12267987)",
+          "quantity": 2,
+          "unit_price": 378.44
+        },
+        {
+          "description": "O-Ring (10218953)",
+          "quantity": 2,
+          "unit_price": 30.55
+        },
+        {
+          "description": "O-Ring (10220707)",
+          "quantity": 1,
+          "unit_price": 44.65
+        },
+        {
+          "description": "O-Ring (7264028)",
+          "quantity": 1,
+          "unit_price": 19.31
+        },
+        {
+          "description": "O-Ring (7381593)",
+          "quantity": 2,
+          "unit_price": 42.41
+        }
+      ]
+    },
+    {
+      "id": "CHR-000142",
+      "external_id": "CHR-000142",
+      "date": "2024-12-06",
+      "work_dates": "Estimate",
+      "equipment": "Link-Belt 360X2",
+      "serial_number": "LBX350Q5NCMHR1273",
+      "unit_id": "E000357",
+      "meter_hours": null,
+      "site": "1333 Brewery Park Blvd, Detroit",
+      "region": "IL",
+      "category": "Engine — Mechanical",
+      "description": "Segment 1: Travel to/from job site — 56mi mileage @ $4.00 + labor $345. Segment 2: Block heater install (canister style, tapped into oil lines at convenient location). Heater $287.60 + sublet hose fabrication $100 + shop supplies $44.85.",
+      "vendor": "Christofano Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Unknown"
+      ],
+      "visits": 1,
+      "parts_total": 511.6,
+      "labor_total": 1840,
+      "misc_total": 210.5,
+      "flags": [
+        "ESTIMATE"
+      ],
+      "flag_notes": "Christofano Equipment (Chicago Ridge IL). Link-Belt 360X2 block heater estimate. $1,840 labor with no hourly rate visible. Mileage classified under parts on invoice (56mi × $4.00 = $224). Includes sublet hose fabrication ($100) and tax ($65.65).",
+      "expected_hours_low": 4,
+      "expected_hours_high": 6,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Mileage (56mi @ $4.00)",
+          "quantity": 56,
+          "unit_price": 4
+        },
+        {
+          "description": "Heater (3305060)",
+          "quantity": 1,
+          "unit_price": 287.6
+        },
+        {
+          "description": "Sublet - Hose Parts",
+          "quantity": 1,
+          "unit_price": 100
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 44.85
+        }
+      ]
+    },
+    {
+      "id": "SWB030324",
+      "external_id": "SWB030324",
+      "date": "2026-01-30",
+      "work_dates": "1/15/26",
+      "equipment": "Volvo L180H",
+      "serial_number": "VCEL180HC00005914",
+      "unit_id": "EQ0357071",
+      "meter_hours": 3550,
+      "site": "2665 State St, Chicago Heights IL",
+      "region": "IL",
+      "category": "Electrical",
+      "description": "WARRANTY: Back-up alarm not working. Failed internally (part 17468188). Tech Anthony G drove to jobsite, swapped alarm, returned old unit for possible warranty. Volvo MHK warranty complaint 7-166036-472947-1.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Anthony G"
+      ],
+      "visits": 1,
+      "parts_total": 131.08,
+      "labor_total": 492,
+      "misc_total": 0,
+      "flags": [
+        "WARRANTY"
+      ],
+      "flag_notes": "Non-chargeable warranty repair. Alta Gary IN location (480 Blaine St). $0 customer cost — invoiced to Volvo. 3.5hr labor @ $140/hr implied. Chicago Heights IL site = Ferrous satellite operation.",
+      "expected_hours_low": 1,
+      "expected_hours_high": 2,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Back-Up Warning Unit (17468188)",
+          "quantity": 1,
+          "unit_price": 131.08
+        }
+      ]
+    },
+    {
+      "id": "SQT206641",
+      "external_id": "SQT206641",
+      "date": "2026-02-16",
+      "work_dates": "Estimate",
+      "equipment": "Volvo L260H",
+      "serial_number": "VCEL260HH00001370",
+      "unit_id": "EQ0302293",
+      "meter_hours": null,
+      "site": "Alta Burton, G3283 S Dort Hwy",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "1000-hour PM service estimate. Oil change (14qt SYN BLE), 8 oil filters, eng oil bypass, fuel filter primary, fuel filter 500hr, primary + safety filters, cab + second cab filters, filter kit auto L, lubricant, fuel surcharge. 18% environmental charge on labor NOT included.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Shop"
+      ],
+      "visits": 1,
+      "parts_total": 1089.19,
+      "labor_total": 907.5,
+      "misc_total": 7.95,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "HIDDEN-FEE"
+      ],
+      "flag_notes": "1000hr PM estimate — larger interval. $907.50 labor = 6.5hr @ $140. Hidden 18% environmental charge = ~$163 extra. True cost: ~$2,168. Burton MI shop.",
+      "expected_hours_low": 5,
+      "expected_hours_high": 7,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Multigrade SYN BLE",
+          "quantity": 14,
+          "unit_price": 17.98
+        },
+        {
+          "description": "Oil Filter (8)",
+          "quantity": 2,
+          "unit_price": 35.23
+        },
+        {
+          "description": "Eng Oil Bypass Fil",
+          "quantity": 1,
+          "unit_price": 35.23
+        },
+        {
+          "description": "Fuel Filter Prima",
+          "quantity": 1,
+          "unit_price": 100.47
+        },
+        {
+          "description": "Fuel Filter 500hr",
+          "quantity": 1,
+          "unit_price": 79.07
+        },
+        {
+          "description": "Primary Filter",
+          "quantity": 1,
+          "unit_price": 159.72
+        },
+        {
+          "description": "Safety Filter",
+          "quantity": 1,
+          "unit_price": 104.15
+        },
+        {
+          "description": "Cab Filter",
+          "quantity": 1,
+          "unit_price": 68.36
+        },
+        {
+          "description": "Cab Filter Second",
+          "quantity": 1,
+          "unit_price": 126.22
+        },
+        {
+          "description": "Filter Kit Auto L",
+          "quantity": 1,
+          "unit_price": 70.91
+        },
+        {
+          "description": "Single Lubricant A",
+          "quantity": 1,
+          "unit_price": 22.84
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "SQT206648",
+      "external_id": "SQT206648",
+      "date": "2026-02-16",
+      "work_dates": "Estimate",
+      "equipment": "Sennebogen 840 M E",
+      "serial_number": "840.0.2362",
+      "unit_id": "EQ0273588",
+      "meter_hours": null,
+      "site": "Alta Burton, G3283 S Dort Hwy",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "500-hour PM service estimate. Multigrade SYN BLE (8qt), heating filters (x2), coolant filter WF, fuel filter FF630, filter element, filter element US, filter element AF, engine oil filter, lubricant, fuel surcharge. 18% environmental NOT included.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Shop"
+      ],
+      "visits": 1,
+      "parts_total": 704.22,
+      "labor_total": 742.5,
+      "misc_total": 7.95,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "HIDDEN-FEE"
+      ],
+      "flag_notes": "500hr PM for 840 M E (S/N 840.0.2362) — different machine from EQ0273581 problem unit. 18% env charge = ~$134 extra. True cost: ~$1,589.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Multigrade SYN BLE",
+          "quantity": 8,
+          "unit_price": 17.08
+        },
+        {
+          "description": "Heating Filter",
+          "quantity": 1,
+          "unit_price": 11.41
+        },
+        {
+          "description": "Heating Filter",
+          "quantity": 1,
+          "unit_price": 32.1
+        },
+        {
+          "description": "Coolant Filter WF",
+          "quantity": 1,
+          "unit_price": 30.37
+        },
+        {
+          "description": "Fuel Filter FF630",
+          "quantity": 1,
+          "unit_price": 50.86
+        },
+        {
+          "description": "Filter Element",
+          "quantity": 1,
+          "unit_price": 136.3
+        },
+        {
+          "description": "Filter Element US",
+          "quantity": 1,
+          "unit_price": 79.1
+        },
+        {
+          "description": "Filter Element AF",
+          "quantity": 1,
+          "unit_price": 128.1
+        },
+        {
+          "description": "Engine Oil Filter",
+          "quantity": 1,
+          "unit_price": 69.27
+        },
+        {
+          "description": "Single Lubricant A",
+          "quantity": 1,
+          "unit_price": 22.84
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "SQT206660",
+      "external_id": "SQT206660",
+      "date": "2026-02-16",
+      "work_dates": "Estimate",
+      "equipment": "Volvo L180G",
+      "serial_number": "19434",
+      "unit_id": "EQ0055355",
+      "meter_hours": null,
+      "site": "Alta Burton, G3283 S Dort Hwy",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "500-hour PM service estimate. Multigrade SYN BLE (14qt), 8 oil filters, eng oil bypass, fuel filter prima, fuel filter 500hr, air filter outer + inner, cab + second cab, lubricant, fuel surcharge. 18% environmental NOT included.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Shop"
+      ],
+      "visits": 1,
+      "parts_total": 1007.1,
+      "labor_total": 742.5,
+      "misc_total": 7.95,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "HIDDEN-FEE"
+      ],
+      "flag_notes": "500hr PM for L180G — $1,758 estimate. Inner+outer air filters at 500hr suggest dusty environment. 18% env = ~$134. True cost: ~$1,891.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Multigrade SYN BLE",
+          "quantity": 14,
+          "unit_price": 17.98
+        },
+        {
+          "description": "Oil Filter (8)",
+          "quantity": 2,
+          "unit_price": 35.23
+        },
+        {
+          "description": "Eng Oil Bypass Fil",
+          "quantity": 1,
+          "unit_price": 35.23
+        },
+        {
+          "description": "Fuel Filter Prima",
+          "quantity": 1,
+          "unit_price": 100.47
+        },
+        {
+          "description": "Fuel Filter 500hr",
+          "quantity": 1,
+          "unit_price": 79.07
+        },
+        {
+          "description": "Air Filter Outer",
+          "quantity": 1,
+          "unit_price": 153.25
+        },
+        {
+          "description": "Air Filter Inner",
+          "quantity": 1,
+          "unit_price": 99.44
+        },
+        {
+          "description": "Cab Filter",
+          "quantity": 1,
+          "unit_price": 68.36
+        },
+        {
+          "description": "Cab Filter Second",
+          "quantity": 1,
+          "unit_price": 126.22
+        },
+        {
+          "description": "Single Lubricant A",
+          "quantity": 1,
+          "unit_price": 22.84
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "SQT206635",
+      "external_id": "SQT206635",
+      "date": "2026-02-16",
+      "work_dates": "Estimate",
+      "equipment": "Sennebogen 830ME",
+      "serial_number": "830.0.2567",
+      "unit_id": "EQ0287891",
+      "meter_hours": null,
+      "site": "Alta Burton, G3283 S Dort Hwy",
+      "region": "SE-MI",
+      "category": "Preventive Maintenance",
+      "description": "500-hour PM estimate for FPT Toledo unit. Engine oil filter, fuel filter FF630, filter element, heating filters, air filters AF5S30+AF550T, multigrade SYN BLE (5qt), lubricant, fuel surcharge. 18% environmental NOT included. Sales tax $35.60 (Ohio unit?).",
+      "vendor": "Alta Equipment",
+      "agreement_status": "none",
+      "techs": [
+        "Shop"
+      ],
+      "visits": 1,
+      "parts_total": 593.4,
+      "labor_total": 742.5,
+      "misc_total": 43.55,
+      "flags": [
+        "ESTIMATE",
+        "PM-SERVICE",
+        "HIDDEN-FEE"
+      ],
+      "flag_notes": "FPT Toledo (BP0120643) — different customer number. 830ME smaller than 840/850. $35.60 sales tax charged (OH unit). 18% env = ~$134. True cost: ~$1,513.",
+      "expected_hours_low": 3,
+      "expected_hours_high": 5,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Engine Oil Filter",
+          "quantity": 1,
+          "unit_price": 17.51
+        },
+        {
+          "description": "Fuel Filter FF630",
+          "quantity": 1,
+          "unit_price": 56.36
+        },
+        {
+          "description": "Filter Element",
+          "quantity": 1,
+          "unit_price": 151.02
+        },
+        {
+          "description": "Heating Filter",
+          "quantity": 1,
+          "unit_price": 35.57
+        },
+        {
+          "description": "Heating Filter",
+          "quantity": 1,
+          "unit_price": 12.64
+        },
+        {
+          "description": "Air Filter AF5S30",
+          "quantity": 1,
+          "unit_price": 58.32
+        },
+        {
+          "description": "Air Filter AF550T",
+          "quantity": 1,
+          "unit_price": 137.03
+        },
+        {
+          "description": "Multigrade SYN BLE",
+          "quantity": 5,
+          "unit_price": 19.93
+        },
+        {
+          "description": "Single Lubricant A",
+          "quantity": 1,
+          "unit_price": 25.3
+        },
+        {
+          "description": "Fuel Surcharge",
+          "quantity": 1,
+          "unit_price": 7.95
+        }
+      ]
+    },
+    {
+      "id": "MCAT-18297589",
+      "external_id": "MCAT-18297589",
+      "date": "2026-02-16",
+      "work_dates": "2/9-2/15/26",
+      "equipment": "CAT 345C MH",
+      "serial_number": "M2R00311",
+      "unit_id": "90146",
+      "meter_hours": 29213,
+      "site": "Shleafer Location, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Hydraulic/Electrical",
+      "description": "Magnetic switch not working. Inspected mag line for pinches/breaks, checked fuses, verified buttons. Hydraulic motor for generator inspected — coupler assembly failed. Ordered parts, removed failed motor, replaced coupler assembly, installed hydraulic motor assembly, verified repair. Ordered 2 extra fuses (machine doesn't have spares). Tech: Tyler A Morris. 11hr field @ $138.70.",
+      "vendor": "Michigan CAT (MacAllister Machinery)",
+      "agreement_status": "expired",
+      "techs": [
+        "Tyler A Morris"
+      ],
+      "visits": 1,
+      "parts_total": 1173.37,
+      "labor_total": 1525.7,
+      "misc_total": 287.53,
+      "flags": [
+        "CROSS-VENDOR-COMP"
+      ],
+      "flag_notes": "Michigan CAT (MacAllister) — $138.70/hr field rate. Agreement expired end of 2025 ($130/hr was final year). Post-agreement rate is 6.7% above old contract. TUC $228.86 (15% on $1,525.70) still being applied. 29,213 hrs — very high-hour machine. Coupler assembly failure = $657.71 in parts.",
+      "expected_hours_low": 8,
+      "expected_hours_high": 12,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Insert (9U5872)",
+          "quantity": 1,
+          "unit_price": 74.6
+        },
+        {
+          "description": "Fuse (1735434)",
+          "quantity": 2,
+          "unit_price": 220.53
+        },
+        {
+          "description": "Coupling (1807101)",
+          "quantity": 1,
+          "unit_price": 505.67
+        },
+        {
+          "description": "Coupling (1807121)",
+          "quantity": 1,
+          "unit_price": 152.04
+        }
+      ]
+    },
+    {
+      "id": "SUM-2245",
+      "external_id": "SUM-2245",
+      "date": "2026-02-18",
+      "work_dates": "1/27/26",
+      "equipment": "CAT 3040",
+      "serial_number": "50011",
+      "unit_id": "50011",
+      "meter_hours": null,
+      "site": "Schlafer, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Hooked multi meter to hot line and discovered a short between wires. Removed previous repair harness and located shorted out section. Replaced bad section of wire and installed quick connects. Tested to confirm proper operation.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 455,
+      "misc_total": 130,
+      "flags": [
+        "GOOD-TRANSPARENCY"
+      ],
+      "flag_notes": "Summit separates labor ($130/hr) and travel ($80/hr). Clean electrical troubleshooting — found previous repair harness was the problem. 3.5hr wrench time reasonable.",
+      "expected_hours_low": 2,
+      "expected_hours_high": 4,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Travel (1hr @ $80)",
+          "quantity": 1,
+          "unit_price": 80
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 50
+        }
+      ]
+    },
+    {
+      "id": "SUM-2214",
+      "external_id": "SUM-2214",
+      "date": "2026-01-06",
+      "work_dates": "11/26, 12/1, 12/11/25",
+      "equipment": "Liebherr LH60",
+      "serial_number": "120495194",
+      "unit_id": "90190",
+      "meter_hours": null,
+      "site": "Schlafer, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Drive / Gearbox",
+      "description": "Visit 1 (11/26, 2 mechs): Serviced axles, changed swing reducer gear oil. Removed/installed new hot line and connectors on magnet. Removed/installed new mag chains. 18hr labor + 4hr travel. Visit 2 (12/1, 2 mechs): Changed all fluids and filters. Extracted stabilizer pin keeper bolts, cleaned pin, installed new bolts and hardware. 16hr labor + 2hr travel. Visit 3 (12/11): Checked mag system — working properly, 95-91 amps at 230V. Reinspected hotline, checked magnet plate for cracks. Suspects moisture causing minor short in magnet box connections. 2hr labor + 2hr travel.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 3,
+      "parts_total": 40,
+      "labor_total": 4680,
+      "misc_total": 755,
+      "flags": [
+        "CROSS-VENDOR-COMP",
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "SAME MACHINE as RECO-42944 (PM estimate) and SUM-2166 (swivel). Summit $130/hr vs RECO $198.40/hr = 34% savings on labor rate. 36hr labor across 3 visits with 2-mechanic crews on first two. Heavy service scope (axles + fluids + mag system) but high hour count.",
+      "expected_hours_low": 25,
+      "expected_hours_high": 38,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Hot Line Connectors",
+          "quantity": 1,
+          "unit_price": 40
+        },
+        {
+          "description": "Travel (8hr @ $80)",
+          "quantity": 8,
+          "unit_price": 80
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 115
+        }
+      ]
+    },
+    {
+      "id": "SUM-2166",
+      "external_id": "SUM-2166",
+      "date": "2025-10-28",
+      "work_dates": "10/7, 10/20/25",
+      "equipment": "Liebherr LH60",
+      "serial_number": "120495194",
+      "unit_id": "90190",
+      "meter_hours": null,
+      "site": "Schlafer, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Hydraulic",
+      "description": "Visit 1 (10/7): Inspected machine for oil leak, found pilot swivel leaking. Customer ordering parts. Visit 2 (10/20): Dead batteries — hooked to jump pack. Marked all lines, disassembled electric swivel plug. Removed swivel, swapped all fittings and electric swivel. Cleaned oil off machine. Clocked swivel and set in machine. Re-assembled harness, reconnected all lines, zip tied. Started machine, let idle to charge. Tested — no codes or leaks.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 2,
+      "parts_total": 0,
+      "labor_total": 1365,
+      "misc_total": 400,
+      "flags": [
+        "REPEAT-MACHINE"
+      ],
+      "flag_notes": "SAME MACHINE as RECO-42944 and SUM-2214. Pilot swivel replacement. 10.5hr labor reasonable for swivel swap. $200 shop supplies is high for this job — 14% of labor.",
+      "expected_hours_low": 8,
+      "expected_hours_high": 12,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Travel (2.5hr @ $80)",
+          "quantity": 1,
+          "unit_price": 200
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 200
+        }
+      ]
+    },
+    {
+      "id": "SUM-2158",
+      "external_id": "SUM-2158",
+      "date": "2025-10-23",
+      "work_dates": "9/8/25",
+      "equipment": "Genesis GXP660R",
+      "serial_number": "600417",
+      "unit_id": "600417",
+      "meter_hours": null,
+      "site": "Toledo",
+      "region": "OH",
+      "category": "Attachment",
+      "description": "Removed blades from shear. Cleaned blades and blade pockets. Performed welding on bottom wear plate. Flipped and reinstalled blades shimming to spec, and torqued all bolts to spec. 9hr labor + 1hr travel.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 1170,
+      "misc_total": 280,
+      "flags": [],
+      "flag_notes": "Shear blade flip/service. 9hr reasonable for blade work with welding. $200 shop supplies recurring pattern — Summit charges flat $200 on most jobs.",
+      "expected_hours_low": 6,
+      "expected_hours_high": 10,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Travel (1hr @ $80)",
+          "quantity": 1,
+          "unit_price": 80
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 200
+        }
+      ]
+    },
+    {
+      "id": "SUM-2160",
+      "external_id": "SUM-2160",
+      "date": "2025-10-23",
+      "work_dates": "10/7/25",
+      "equipment": "CAT 3040",
+      "serial_number": "0239",
+      "unit_id": "0239",
+      "meter_hours": null,
+      "site": "Schlafer, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Electrical",
+      "description": "Removed worn mag chains and installed new chains. 1hr labor + 1hr travel.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 130,
+      "misc_total": 80,
+      "flags": [],
+      "flag_notes": "Quick mag chain swap. 1hr wrench time is efficient. Different CAT 3040 than SUM-2245 (S/N 0239 vs 50011).",
+      "expected_hours_low": 1,
+      "expected_hours_high": 2,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Travel (1hr @ $80)",
+          "quantity": 1,
+          "unit_price": 80
+        }
+      ]
+    },
+    {
+      "id": "SUM-2161",
+      "external_id": "SUM-2161",
+      "date": "2025-10-23",
+      "work_dates": "9/4-10/14/25",
+      "equipment": "Link-Belt 380X4 MH",
+      "serial_number": "1119",
+      "unit_id": "1119",
+      "meter_hours": null,
+      "site": "Schlafer, 3100 Lonyo Detroit",
+      "region": "SE-MI",
+      "category": "Hydraulic",
+      "description": "6-week hydraulic pump noise chase + cylinder replacement. V1 (9/4, 2 mechs): Checked pump noise, inspected filters/flywheel/coupling — nothing found. Drained oil, removed PTO drive and generator pump. Noise still present with PTO removed. 12hr+2.75hr trav. V2 (9/5, 2 mechs): Removed main hyd pump, ran engine 2hr with pump removed — no noise. Traveled to Ypsilanti for used pump. 13hr+5hr trav. V3 (9/10): Loaded pump, delivered to shop for rebuild. 1.5hr+2hr trav. V4 (9/17): Reinstalled original pump — noise returned. Suspects rear gear train resonance through pump. 7hr+2hr trav. V5 (9/22): Replaced pump case drain hose (leaking), repaired wiring to pressure sensors. Returned to service. 5.5hr+1hr trav. V6 (10/14): Drove to Inkster yard, picked up used cylinder, installed at Schlafer. 3.75hr+2hr trav.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 6,
+      "parts_total": 1875,
+      "labor_total": 5557.5,
+      "misc_total": 1280,
+      "flags": [
+        "EXCESSIVE-VISITS",
+        "HIGH-LABOR"
+      ],
+      "flag_notes": "$8,713 across 6 visits over 6 weeks chasing hydraulic pump noise. Pump was rebuilt ($1,875) but noise returned — suspected rear gear train resonance, not pump. Pump rebuild may have been unnecessary. 42.75hr labor + 14.75hr travel = 57.5hr total billed. Cylinder replacement tacked on at visit 6 (separate issue). Summit's transparency on the diagnostic dead-ends is honest, but the cost adds up.",
+      "expected_hours_low": 20,
+      "expected_hours_high": 35,
+      "vendor_type": "independent",
+      "_line_items": [
+        {
+          "description": "Hydraulic Pump Rebuild",
+          "quantity": 1,
+          "unit_price": 1875
+        },
+        {
+          "description": "Travel (14.75hr @ $80)",
+          "quantity": 1,
+          "unit_price": 1180
+        },
+        {
+          "description": "Shop Supplies",
+          "quantity": 1,
+          "unit_price": 100
+        }
+      ]
+    },
+    {
+      "id": "SUM-EST-2313",
+      "external_id": "SUM-EST-2313",
+      "date": "2026-02-04",
+      "work_dates": "Estimate",
+      "equipment": "Volvo Shear",
+      "serial_number": null,
+      "unit_id": null,
+      "meter_hours": null,
+      "site": "6464 Strong St, Detroit",
+      "region": "SE-MI",
+      "category": "Attachment",
+      "description": "Inspect and flip shear blades, repair as needed. Volvo shear @ Strong location. Flat estimate — no hourly breakdown provided.",
+      "vendor": "Summit Industrial Services",
+      "agreement_status": "none",
+      "techs": [
+        "Summit"
+      ],
+      "visits": 1,
+      "parts_total": 0,
+      "labor_total": 4000,
+      "misc_total": 0,
+      "flags": [
+        "ESTIMATE"
+      ],
+      "flag_notes": "$4,000 flat estimate for shear blade service. Compare to SUM-2158 (Genesis shear blade flip at $1,450). 176% higher — different shear size/scope likely but worth verifying. Summit T&C: 15 day payment, 1% late charge per 30 days.",
+      "expected_hours_low": 15,
+      "expected_hours_high": 25,
+      "vendor_type": "independent",
+      "_line_items": []
+    },
+    {
+      "id": "90181-2023-03A",
+      "external_id": "90181-2023-03A",
+      "date": "2023-03-20",
+      "work_dates": "3/20/23",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "Regen issue & inlet module repair. 5 line items: replace inlet module parts ($11,025), regen issue/module repair ($1,409), credit ($-162), labor, misc. First major emission system failure on this unit — begins Tier 4 cascade.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 11024.85,
+      "labor_total": 1408.75,
+      "misc_total": 2185.19,
+      "flags": [
+        "EMISSION-PATTERN",
+        "EMISSION-CASCADE",
+        "HIGH-DOLLAR"
+      ],
+      "flag_notes": "$14,619 total. FIRST emission event on 90181. Inlet module failure + regen issue. This is the opening event of a Tier 4 Final cascade that escalates through 2025. Pattern: inlet module → DPF/DOC → EGR valve → EGR cooler → derated machine.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Inlet Module Parts",
+          "quantity": 1,
+          "unit_price": 11024.85
+        },
+        {
+          "description": "Regen/Module Labor",
+          "quantity": 1,
+          "unit_price": 1408.75
+        }
+      ]
+    },
+    {
+      "id": "90181-2023-01A",
+      "external_id": "90181-2023-01A",
+      "date": "2023-01-31",
+      "work_dates": "1/31/23",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Replace starter and fuel pump. $6,980 fuel pump + $1,661 second starter install. Two critical engine components in same event.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 6979.73,
+      "labor_total": 1661.02,
+      "misc_total": 0,
+      "flags": [
+        "HIGH-DOLLAR",
+        "ENGINE-DEGRADATION"
+      ],
+      "flag_notes": "$8,641 combined. Starter + fuel pump simultaneous failure = age-related engine wear. This machine was already accumulating engine spend.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Fuel Pump",
+          "quantity": 1,
+          "unit_price": 6979.73
+        },
+        {
+          "description": "Starter Install",
+          "quantity": 1,
+          "unit_price": 1661.02
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-04A",
+      "external_id": "90181-2025-04A",
+      "date": "2025-04-17",
+      "work_dates": "4/17/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "Replace DOC & DPF filters. $13,531 single event — highest emission system repair on this unit. Part of ongoing Tier 4 cascade that began with 2023 inlet module failure.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 13531.19,
+      "labor_total": 0,
+      "misc_total": 0,
+      "flags": [
+        "EMISSION-PATTERN",
+        "EMISSION-CASCADE",
+        "HIGH-DOLLAR"
+      ],
+      "flag_notes": "$13,531 for DPF/DOC replacement. Second major emission event. Cascade: inlet module (2023) → DPF/DOC (now) → EGR valve (3/25) → EGR cooler (9/25). Total emission spend on this unit now exceeds $30K.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "DOC & DPF Filters",
+          "quantity": 1,
+          "unit_price": 13531.19
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-03A",
+      "external_id": "90181-2025-03A",
+      "date": "2025-03-31",
+      "work_dates": "3/31/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "Replace EGR valve & DPF sensor. Continuing emission cascade — EGR system now failing alongside DPF.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 2852.58,
+      "labor_total": 0,
+      "misc_total": 0,
+      "flags": [
+        "EMISSION-PATTERN",
+        "EMISSION-CASCADE"
+      ],
+      "flag_notes": "$2,853. Third emission event in cascade. EGR valve failure is predictable after inlet module and DPF events — shared exhaust gas pathway.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "EGR Valve & DPF Sensor",
+          "quantity": 1,
+          "unit_price": 2852.58
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-09A",
+      "external_id": "90181-2025-09A",
+      "date": "2025-09-16",
+      "work_dates": "9/16/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Emission",
+      "description": "Replace EGR cooler. Fourth emission component failure. Exhaust gas recirculation system fully compromised.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 2193,
+      "labor_total": 0,
+      "misc_total": 0,
+      "flags": [
+        "EMISSION-PATTERN",
+        "EMISSION-CASCADE"
+      ],
+      "flag_notes": "$2,193. Fourth emission event. EGR cooler fails after EGR valve — thermal cycling damage. Total emission cascade: $33K+ across 4 events over 30 months.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "EGR Cooler",
+          "quantity": 1,
+          "unit_price": 2193
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-07A",
+      "external_id": "90181-2025-07A",
+      "date": "2025-07-28",
+      "work_dates": "7/28/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Replace turbocharger + actuator kit. 5 line items: turbo ($7,674), actuator kit ($1,313), nuts/studs, shipping. Machine was derated prior to this repair.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 7674.34,
+      "labor_total": 1313.18,
+      "misc_total": 314.28,
+      "flags": [
+        "HIGH-DOLLAR",
+        "ENGINE-DEGRADATION"
+      ],
+      "flag_notes": "$9,302 turbocharger replacement. Machine was running derated ($900 derate repair in 7/25). Turbo failure on a machine with active emission cascade = compounding engine stress. This is not a standalone failure — it's systemic.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Turbocharger",
+          "quantity": 1,
+          "unit_price": 7674.34
+        },
+        {
+          "description": "Turbo Actuator Kit",
+          "quantity": 1,
+          "unit_price": 1313.18
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-12A",
+      "external_id": "90181-2025-12A",
+      "date": "2025-12-16",
+      "work_dates": "12/16/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Replace rear main seal ($5,437) + crank sensor ($712) + multiple repairs ($1,704). Three separate segments billed same date. Rear main seal = major engine structural repair.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 5437.11,
+      "labor_total": 712.07,
+      "misc_total": 1704.02,
+      "flags": [
+        "HIGH-DOLLAR",
+        "ENGINE-DEGRADATION",
+        "END-OF-LIFE"
+      ],
+      "flag_notes": "$7,853 combined. Rear main seal is a deep-engine repair — requires significant disassembly. Crank sensor failure alongside = internal wear. Combined with turbo, EGR cascade, and oil pressure sensor failures in same year, this machine is showing systemic engine end-of-life indicators.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Rear Main Seal (Seg 40)",
+          "quantity": 1,
+          "unit_price": 5437.11
+        },
+        {
+          "description": "Crank Sensor (Seg 30)",
+          "quantity": 1,
+          "unit_price": 712.07
+        },
+        {
+          "description": "Multiple Repairs",
+          "quantity": 1,
+          "unit_price": 1704.02
+        }
+      ]
+    },
+    {
+      "id": "90181-2025-06A",
+      "external_id": "90181-2025-06A",
+      "date": "2025-06-16",
+      "work_dates": "6/16/25",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Replace oil pressure sensor. $4,910 single repair — high cost for sensor suggests additional diagnostic/teardown labor bundled.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 4909.79,
+      "labor_total": 0,
+      "misc_total": 0,
+      "flags": [
+        "ENGINE-DEGRADATION"
+      ],
+      "flag_notes": "$4,910 for oil pressure sensor. Price suggests significant diagnostic work or access teardown, not just a sensor swap. Oil pressure issues on a machine with turbo/emission failures = lubrication system stress.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Oil Pressure Sensor + Labor",
+          "quantity": 1,
+          "unit_price": 4909.79
+        }
+      ]
+    },
+    {
+      "id": "90181-2024-08A",
+      "external_id": "90181-2024-08A",
+      "date": "2024-08-31",
+      "work_dates": "8/31/24",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Attachment",
+      "description": "New 1.5 CU YD 4-tine Young grapple ($49,150) + crosshead ($5,594) + freight ($3,045). Capital attachment replacement, not machine health indicator.",
+      "vendor": "National Association Supply",
+      "agreement_status": "none",
+      "techs": [
+        "National Assoc Supply"
+      ],
+      "visits": 1,
+      "parts_total": 49149.87,
+      "labor_total": 0,
+      "misc_total": 8639.19,
+      "flags": [
+        "HIGH-DOLLAR",
+        "CAPITAL-ATTACHMENT"
+      ],
+      "flag_notes": "$57,789 grapple replacement. This is CAPITAL equipment spend, not machine health. Inflates 2024 total to $99K — corrected machine health spend is ~$41K. Vendor: National Association Supply, not Alta.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "other",
+      "_line_items": [
+        {
+          "description": "1.5 CU YD 4-Tine Young Grapple",
+          "quantity": 1,
+          "unit_price": 49149.87
+        },
+        {
+          "description": "Crosshead",
+          "quantity": 1,
+          "unit_price": 5594.19
+        },
+        {
+          "description": "Freight",
+          "quantity": 1,
+          "unit_price": 3045
+        }
+      ]
+    },
+    {
+      "id": "90181-2020-11A",
+      "external_id": "90181-2020-11A",
+      "date": "2020-11-30",
+      "work_dates": "11/30/20",
+      "equipment": "Sennebogen 835 M",
+      "serial_number": "475049",
+      "unit_id": "O-90181",
+      "meter_hours": null,
+      "site": "Ferrous fleet",
+      "region": "SE-MI",
+      "category": "Engine — Mechanical",
+      "description": "Fuel injector leak + replacement. 3 line items across Nov 2020. Injectors are a recurring theme — Cummins prepaid entries suggest ongoing injector issues through mid-2020.",
+      "vendor": "Alta Equipment",
+      "agreement_status": "resident",
+      "techs": [
+        "Alta"
+      ],
+      "visits": 1,
+      "parts_total": 4437.52,
+      "labor_total": 0,
+      "misc_total": 0,
+      "flags": [
+        "ENGINE-DEGRADATION"
+      ],
+      "flag_notes": "$4,438 fuel injector work. Note: multiple Cummins prepaid entries ($1,266/mo for 6 months in 2020) suggest a Cummins service contract covering ongoing injector issues. Total injector-related spend in 2020 likely higher.",
+      "expected_hours_low": null,
+      "expected_hours_high": null,
+      "vendor_type": "dealer",
+      "_line_items": [
+        {
+          "description": "Fuel Injectors + Install",
+          "quantity": 1,
+          "unit_price": 4437.52
+        }
+      ]
+    }
+  ],
+  "transactions": []
+}
