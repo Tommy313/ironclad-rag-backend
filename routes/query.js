@@ -28,7 +28,7 @@ router.post('/chat', queryLimiter, async (req, res) => {
   try {
     const {
       question,
-      threshold = 0.60,   // similarity threshold for retrieval
+      threshold = 0.30,   // similarity threshold for retrieval
       topK      = 15,     // max context chunks to retrieve
       tables    = null    // optional: filter to specific tables ['invoices', 'agreements']
     } = req.body;
