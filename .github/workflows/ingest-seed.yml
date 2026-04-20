@@ -12,4 +12,8 @@ jobs:
 
       - name: Run seed ingest
         run: node scripts/ingest-seed.js
-        timeout-minutes: 5
+        timeout-minutes: 10
+        env:
+          SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          RAG_URL:           ${{ secrets.RAG_URL }}
