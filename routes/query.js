@@ -54,6 +54,22 @@ router.post('/chat', queryLimiter, async (req, res) => {
       context = context.filter(c => tables.includes(c.source_table));
     }
 
+    // Fallback for broad/aggregate queries: if nothing matched the threshold,
+    // retry with a near-zero threshold to grab a representative sample.
+    // This handles questions like "summarize all vendors" or "list all flagged invoices"
+    // where no single invoice is a close semantic match to the query.
+    if (context.length === 0) {
+      console.log(`[/query/chat] No results above threshold ${threshold} — retrying with broad sweep`);
+      context = await searchAll(queryEmbedding, {
+        threshold: 0.01,
+        count: Math.max(topK, 25),  // pull more records for broad queries
+      });
+      if (tables && Array.isArray(tables) && tables.length > 0) {
+        context = context.filter(c => tables.includes(c.source_table));
+      }
+      console.log(`[/query/chat] Broad sweep retrieved ${context.length} context chunks`);
+    }
+
     console.log(`[/query/chat] Retrieved ${context.length} context chunks`);
 
     // 3. Run the RAG completion (GPT reads context + answers question)
