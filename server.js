@@ -10,9 +10,10 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 
-const { ingestRouter } = require('./routes/ingest');
-const { queryRouter } = require('./routes/query');
-const { searchRouter } = require('./routes/search');
+const { ingestRouter }   = require('./routes/ingest');
+const { queryRouter }    = require('./routes/query');
+const { searchRouter }   = require('./routes/search');
+const { extractRouter }  = require('./routes/extract');
 
 // ─── Validate required env vars at startup ────────────────────────────────────
 const REQUIRED_ENV = [
@@ -50,8 +51,8 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'x-api-key', 'Authorization']
 }));
 
-// Body parsing
-app.use(express.json({ limit: '10mb' }));
+// Body parsing — 25mb to handle base64-encoded PDF page images for Vision extraction
+app.use(express.json({ limit: '25mb' }));
 
 // Global rate limiting
 app.use(rateLimit({
@@ -73,9 +74,10 @@ function requireApiKey(req, res, next) {
 
 
 // ─── Routes ───────────────────────────────────────────────────────────────────
-app.use('/ingest', requireApiKey, ingestRouter);
-app.use('/query', queryRouter);
-app.use('/search', searchRouter);
+app.use('/ingest',  requireApiKey, ingestRouter);
+app.use('/query',   queryRouter);
+app.use('/search',  searchRouter);
+app.use('/extract', extractRouter);  // GPT-4o Vision invoice extraction (no API key required)
 
 
 // ─── Health check ─────────────────────────────────────────────────────────────
