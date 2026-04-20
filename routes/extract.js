@@ -39,29 +39,27 @@ router.post('/invoice', async (req, res) => {
 Extract ALL invoice fields visible in this image and return a single JSON object. Be precise — this data feeds a financial audit engine.
 ${vendorHint}
 
-Return ONLY this JSON structure, no markdown, no explanation:
+Return ONLY valid JSON matching this exact structure. Use null for any field not found. Do NOT use placeholder text or example values — extract real data from the image only:
 {
-  "invoiceNumber": "invoice or work order number, e.g. SWA877183",
-  "vendor": "dealer or vendor company name — use canonical name from list above if it matches",
-  "date": "invoice date as YYYY-MM-DD",
-  "workDates": "actual service/work dates as written, e.g. '11/10/25' or '10/7, 10/9/25'",
-  "equipment": "full equipment description, e.g. 'Sennebogen 840 M E'",
-  "serialNumber": "machine serial number",
-  "unitId": "fleet/unit ID number if shown",
-  "site": "job site or location address",
-  "meterHours": 12345,
-  "laborTotal": 1840.00,
-  "partsTotal": 58.29,
-  "miscTotal": 0.00,
-  "grandTotal": 1898.29,
-  "techs": ["Tech Name 1", "Tech Name 2"],
-  "visits": 1,
-  "description": "complete description of all work performed, diagnostic steps, findings, and parts used",
-  "lineItems": [
-    { "description": "part or labor description", "quantity": 1, "unitPrice": 58.29, "total": 58.29 }
-  ],
-  "region": "geographic region if shown",
-  "agreementType": "resident or contract type if mentioned"
+  "invoiceNumber": null,
+  "vendor": null,
+  "date": null,
+  "workDates": null,
+  "equipment": null,
+  "serialNumber": null,
+  "unitId": null,
+  "site": null,
+  "meterHours": null,
+  "laborTotal": null,
+  "partsTotal": null,
+  "miscTotal": null,
+  "grandTotal": null,
+  "techs": null,
+  "visits": null,
+  "description": null,
+  "lineItems": [],
+  "region": null,
+  "agreementType": null
 }
 
 Rules:
