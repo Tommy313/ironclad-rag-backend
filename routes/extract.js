@@ -29,9 +29,9 @@ router.post('/invoice', async (req, res) => {
 
     console.log(`[/extract/invoice] Processing ${pages.length} page(s)`);
 
-    // Build context hints to improve extraction accuracy
+    // Build canonical vendor list for exact-match normalization in the prompt
     const vendorHint = knownVendors.length > 0
-      ? `\nKnown vendors in this fleet: ${knownVendors.slice(0, 10).join(', ')}.`
+      ? `\nCANONICAL VENDOR LIST — if the invoice vendor matches any of these (even partially), return the EXACT name from this list: ${knownVendors.slice(0, 20).join(' | ')}.\nDo NOT append "Company", "Inc.", "LLC", "Co.", or any suffix if the canonical name doesn't have it.`
       : '';
 
     const prompt = `You are an expert at reading heavy equipment dealer repair invoices (CAT, Sennebogen, Volvo, John Deere, Komatsu, etc.).
@@ -42,7 +42,7 @@ ${vendorHint}
 Return ONLY this JSON structure, no markdown, no explanation:
 {
   "invoiceNumber": "invoice or work order number, e.g. SWA877183",
-  "vendor": "dealer or vendor company name",
+  "vendor": "dealer or vendor company name — use canonical name from list above if it matches",
   "date": "invoice date as YYYY-MM-DD",
   "workDates": "actual service/work dates as written, e.g. '11/10/25' or '10/7, 10/9/25'",
   "equipment": "full equipment description, e.g. 'Sennebogen 840 M E'",
