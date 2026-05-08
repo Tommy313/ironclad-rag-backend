@@ -14,6 +14,7 @@ const { ingestRouter }   = require('./routes/ingest');
 const { queryRouter }    = require('./routes/query');
 const { searchRouter }   = require('./routes/search');
 const { extractRouter }  = require('./routes/extract');
+const { reportRouter }   = require('./routes/report');
 
 // ─── Validate required env vars at startup ────────────────────────────────────
 const REQUIRED_ENV = [
@@ -75,9 +76,10 @@ function requireApiKey(req, res, next) {
 
 // ─── Routes ───────────────────────────────────────────────────────────────────
 app.use('/ingest',  requireApiKey, ingestRouter);
-app.use('/query',   queryRouter);
-app.use('/search',  searchRouter);
-app.use('/extract', extractRouter);  // GPT-4o Vision invoice extraction (no API key required)
+app.use('/query',   requireApiKey, queryRouter);
+app.use('/search',  requireApiKey, searchRouter);
+app.use('/extract', requireApiKey, extractRouter);  // GPT-4o Vision — requires x-api-key header
+app.use('/report',  requireApiKey, reportRouter);   // Cost Intelligence Brief PDF generator
 
 
 // ─── Health check ─────────────────────────────────────────────────────────────
