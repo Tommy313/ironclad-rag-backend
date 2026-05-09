@@ -1,30 +1,38 @@
 /**
  * EXTRACT ROUTES — Smart invoice extraction
  *
- * POST /extract/invoice
+ * Model selection (in priority order):
+ *  1. Claude (Anthropic) — best at structured JSON, fewer hallucinations, reliable field extraction
+ *     Used when ANTHROPIC_API_KEY is set. Text-layer PDFs only.
+ *  2. GPT-4o Text — good fallback when Claude not configured. Text-layer PDFs.
+ *  3. GPT-4o Vision — for scanned/image-only PDFs where no text layer exists.
  *
- * Strategy:
- *  1. If raw PDF buffer is provided (pdfBase64), try pdf-parse text extraction first.
- *     Digital PDFs (Alta, RECO, Michigan CAT) have embedded text — much cheaper + faster.
- *  2. If text is substantial (>200 chars after cleanup), use text-based GPT-4o extraction.
- *  3. Otherwise fall back to GPT-4o Vision with page images (scanned/image-only PDFs).
- *
- * Cost comparison:
- *  - Vision: ~$0.01–0.03/page (image tokens)
- *  - Text:   ~$0.001–0.003/page (text tokens, 10x cheaper)
+ * PDF Strategy:
+ *  - pdf-parse extracts text first. If text is good (>200 chars), skip Vision entirely.
+ *  - Digital dealer invoices (Alta, RECO, Michigan CAT) are almost always text-layer.
+ *  - Cost: Claude text ~$0.001/invoice, GPT-4o text ~$0.002, Vision ~$0.02. Claude wins.
  */
 
-const express  = require('express');
-const router   = express.Router();
-const OpenAI   = require('openai');
-const pdfParse = require('pdf-parse');
+const express   = require('express');
+const router    = express.Router();
+const OpenAI    = require('openai');
+const pdfParse  = require('pdf-parse');
+const Anthropic = require('@anthropic-ai/sdk');
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai    = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const anthropic = process.env.ANTHROPIC_API_KEY
+  ? new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+  : null;
+
+// ── Which model to use for text extraction ────────────────────────────────────
+// Claude preferred: follows JSON structure precisely, hallucinates less on null fields
+// Falls back to GPT-4o text if no Anthropic key configured
+const TEXT_MODEL  = anthropic ? 'claude' : 'gpt4o-text';
 
 // ── Shared extraction prompt template ────────────────────────────────────────
 function buildPrompt(vendorHint, isText = false) {
   const sourceNote = isText
-    ? 'You are reading EXTRACTED TEXT from a heavy equipment dealer invoice. The text may have formatting artifacts — interpret them correctly.'
+    ? 'You are reading EXTRACTED TEXT from a heavy equipment dealer invoice (PDF text layer). Formatting artifacts like extra spaces or line breaks are normal — focus on the data values.'
     : 'You are reading a SCANNED IMAGE of a heavy equipment dealer invoice. Extract every visible field carefully.';
 
   return `${sourceNote}
@@ -96,7 +104,21 @@ function buildFields(extracted, source) {
   };
 }
 
-// ── GPT call (shared for both text and vision paths) ─────────────────────────
+// ── LLM calls ─────────────────────────────────────────────────────────────────
+
+async function callClaude(promptText, label) {
+  // Claude: best structured JSON output, low hallucination rate on invoice fields
+  const msg = await anthropic.messages.create({
+    model:      'claude-opus-4-5',
+    max_tokens: 2000,
+    messages:   [{ role: 'user', content: promptText }],
+  });
+  const raw    = msg.content[0].text.trim();
+  const jsonStr = raw.replace(/^```(?:json)?\n?/i, '').replace(/\n?```$/i, '').trim();
+  console.log(`[extract/claude/${label}] ${raw.length} chars, input:${msg.usage?.input_tokens} output:${msg.usage?.output_tokens}`);
+  return { jsonStr, usage: msg.usage, model: 'claude-opus-4-5' };
+}
+
 async function callGPT(content, label) {
   const resp = await openai.chat.completions.create({
     model:       'gpt-4o',
@@ -106,7 +128,7 @@ async function callGPT(content, label) {
   });
   const raw    = resp.choices[0].message.content.trim();
   const jsonStr = raw.replace(/^```(?:json)?\n?/i, '').replace(/\n?```$/i, '').trim();
-  console.log(`[extract/${label}] ${raw.length} chars, ${resp.usage?.total_tokens} tokens`);
+  console.log(`[extract/gpt4o/${label}] ${raw.length} chars, ${resp.usage?.total_tokens} tokens`);
   return { jsonStr, usage: resp.usage, model: resp.model };
 }
 
@@ -136,19 +158,22 @@ router.post('/invoice', async (req, res) => {
         const hasGoodText   = textLength > 200 && textQuality > 0.35;
 
         if (hasGoodText) {
-          console.log(`[extract/text] ${textLength} chars extracted, quality ${(textQuality*100).toFixed(0)}% — using text path`);
+          console.log(`[extract] ${textLength} chars, quality ${(textQuality*100).toFixed(0)}% — using ${TEXT_MODEL} text path`);
 
-          // Truncate to ~6000 chars to stay within token budget (covers most invoices)
           const truncated = rawText.length > 6000 ? rawText.slice(0, 6000) + '\n[...truncated]' : rawText;
+          const fullPrompt = `${buildPrompt(vendorHint, true)}\n\n--- INVOICE TEXT ---\n${truncated}`;
 
-          const { jsonStr, usage, model } = await callGPT(
-            `${buildPrompt(vendorHint, true)}\n\n--- INVOICE TEXT ---\n${truncated}`,
-            'text'
-          );
-          extractedJson = JSON.parse(jsonStr);
-          usedMethod    = 'text';
-          usageStats    = usage;
-          modelUsed     = model;
+          let result;
+          if (anthropic) {
+            result = await callClaude(fullPrompt, 'invoice');
+          } else {
+            result = await callGPT(fullPrompt, 'text');
+          }
+
+          extractedJson = JSON.parse(result.jsonStr);
+          usedMethod    = anthropic ? 'claude-text' : 'gpt4o-text';
+          usageStats    = result.usage;
+          modelUsed     = result.model;
         } else {
           console.log(`[extract/text] Text too sparse (${textLength} chars, ${(textQuality*100).toFixed(0)}% quality) — falling back to Vision`);
         }
@@ -179,7 +204,7 @@ router.post('/invoice', async (req, res) => {
     }
 
     // ── Build response ────────────────────────────────────────────────────────
-    const source  = usedMethod === 'text' ? 'GPT-4o Text' : 'GPT-4o Vision';
+    const source  = usedMethod === 'claude-text' ? 'Claude Text' : usedMethod === 'gpt4o-text' ? 'GPT-4o Text' : 'GPT-4o Vision';
     const fields  = buildFields(extractedJson, source);
     const withData = Object.values(fields).filter(f => f.value !== null).length;
     const highConf = Object.values(fields).filter(f => f.confidence === 'HIGH').length;
